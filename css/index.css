@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&family=Raleway&display=swap");
+body {
+  font-family: "Overpass";
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .card {
+  background-color: hsl(213, 19%, 18%);
+  width: 400px;
+  height: 450px;
+  border-radius: 10px;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 25px;
+  margin: 0;
+}
+body .card .star {
+  background-color: hsl(213, 19%, 23%);
+  padding: 10px;
+  border-radius: 50%;
+}
+body .card h2 {
+  color: hsl(0, 100%, 100%);
+}
+body .card p {
+  color: hsl(217, 12%, 63%);
+}/*# sourceMappingURL=index.css.map */
