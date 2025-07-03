@@ -3,6 +3,7 @@
 $White: hsl(0, 100%, 100%);
 $Grey-500: hsl(217, 12%, 63%);
 $Grey-900: hsl(213, 19%, 18%);
+$Grey-850: hsl(213, 19%, 23%);
 $Grey-950: hsl(216, 12%, 8%);
 $range-500: hsl(25, 97%, 53%);
 
@@ -17,7 +18,7 @@ body {
     .card {
         background-color: $Grey-900;
         width: 400px;
-        height: 450px;
+        height: 380px;
         border-radius: 10px;
         flex-direction: column;
         box-sizing: border-box;
@@ -25,15 +26,43 @@ body {
         margin: 0;
 
         .star {
-            background-color: hsl(213, 19%, 23%);
+            background-color: $Grey-850;
             padding: 10px;
             border-radius: 50%;
+            margin-bottom: 20px;
         }
         h2 {
             color: $White;
         }
         p {
             color: $Grey-500;
+        }
+
+        .rate-num {
+            display: flex;
+            justify-content: space-between;
+
+            #btn-rate {
+                border: none;
+                background-color: $Grey-850;
+                padding: 20px;
+                border-radius: 50%;
+                height: 4em;
+                width: 4em;
+                color: $Grey-500;
+            }
+        }
+        
+        #btn-submit {
+            border: none;
+            background-color: $range-500;
+            color: $Grey-950;
+            padding: 10px 150px;
+            border-radius: 18px;
+            margin: 20px 0;
+        }
+        #hidd {
+            visibility: hidden;
         }
     }
 }

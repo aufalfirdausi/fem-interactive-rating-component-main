@@ -10,7 +10,7 @@ body {
 body .card {
   background-color: hsl(213, 19%, 18%);
   width: 400px;
-  height: 450px;
+  height: 380px;
   border-radius: 10px;
   flex-direction: column;
   box-sizing: border-box;
@@ -21,10 +21,35 @@ body .card .star {
   background-color: hsl(213, 19%, 23%);
   padding: 10px;
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 body .card h2 {
   color: hsl(0, 100%, 100%);
 }
 body .card p {
   color: hsl(217, 12%, 63%);
+}
+body .card .rate-num {
+  display: flex;
+  justify-content: space-between;
+}
+body .card .rate-num #btn-rate {
+  border: none;
+  background-color: hsl(213, 19%, 23%);
+  padding: 20px;
+  border-radius: 50%;
+  height: 4em;
+  width: 4em;
+  color: hsl(217, 12%, 63%);
+}
+body .card #btn-submit {
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(216, 12%, 8%);
+  padding: 10px 150px;
+  border-radius: 18px;
+  margin: 20px 0;
+}
+body .card #hidd {
+  visibility: hidden;
 }/*# sourceMappingURL=index.css.map */
