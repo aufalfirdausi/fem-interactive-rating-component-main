@@ -15,7 +15,10 @@ body {
     align-items: center;
     height: 100vh;
     
-    .card {
+    .card-1 {
+
+        visibility: hidden;
+        display: none;
         background-color: $Grey-900;
         width: 400px;
         height: 380px;
@@ -61,8 +64,40 @@ body {
             border-radius: 18px;
             margin: 20px 0;
         }
-        #hidd {
-            visibility: hidden;
+    }
+
+    #card-2 {
+        background-color: $Grey-900;
+        width: 350px;
+        height: 350px;
+        border-radius: 10px;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 25px;
+        margin: 0;
+        justify-items: center;
+
+        img {
+            display: flex;
+        }
+
+        #atention {
+            background-color: $Grey-850;
+            padding: 5px 15px;
+            border-radius: 18px;
+            color: $range-500;
+            font-size: 15px;
+        }
+        
+        h2 {
+            padding-top: 15px;
+            color: $White;
+        }
+
+        .desc {
+            text-align: center;
+            font-size: 15px;
+            color: $Grey-500;
         }
     }
 }
